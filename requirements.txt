@@ -8,7 +8,6 @@ pymongo
 certifi
 logging
 pymongo[srv]==3.12
-
-
-
+dill
+pyyaml
 # -e .
