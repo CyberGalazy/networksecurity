@@ -1,0 +1,93 @@
+Abnormal_URL:
+  pvalue: 1.0
+  same_distribution: true
+DNSRecord:
+  pvalue: 0.9999510909578456
+  same_distribution: true
+Domain_registeration_length:
+  pvalue: 0.6369650807361981
+  same_distribution: true
+Favicon:
+  pvalue: 0.9999993831997822
+  same_distribution: true
+Google_Index:
+  pvalue: 1.0
+  same_distribution: true
+HTTPS_token:
+  pvalue: 1.0
+  same_distribution: true
+Iframe:
+  pvalue: 1.0
+  same_distribution: true
+Links_in_tags:
+  pvalue: 0.9958579353974752
+  same_distribution: true
+Links_pointing_to_page:
+  pvalue: 1.0
+  same_distribution: true
+Page_Rank:
+  pvalue: 0.793456747140991
+  same_distribution: true
+Prefix_Suffix:
+  pvalue: 0.999999999999956
+  same_distribution: true
+Redirect:
+  pvalue: 0.9999953843756324
+  same_distribution: true
+Request_URL:
+  pvalue: 0.999999999999956
+  same_distribution: true
+Result:
+  pvalue: 0.7009958426886144
+  same_distribution: true
+RightClick:
+  pvalue: 0.9999999999997877
+  same_distribution: true
+SFH:
+  pvalue: 0.9999999999876384
+  same_distribution: true
+SSLfinal_State:
+  pvalue: 0.5343962959930338
+  same_distribution: true
+Shortining_Service:
+  pvalue: 1.0
+  same_distribution: true
+Statistical_report:
+  pvalue: 0.9964705532516113
+  same_distribution: true
+Submitting_to_email:
+  pvalue: 0.9999982228268777
+  same_distribution: true
+URL_Length:
+  pvalue: 0.9999999999598222
+  same_distribution: true
+URL_of_Anchor:
+  pvalue: 0.6690447230238084
+  same_distribution: true
+age_of_domain:
+  pvalue: 0.9786058095826133
+  same_distribution: true
+double_slash_redirecting:
+  pvalue: 1.0
+  same_distribution: true
+having_At_Symbol:
+  pvalue: 0.9236254567999284
+  same_distribution: true
+having_IP_Address:
+  pvalue: 1.0
+  same_distribution: true
+having_Sub_Domain:
+  pvalue: 1.0
+  same_distribution: true
+on_mouseover:
+  pvalue: 0.9999971010402764
+  same_distribution: true
+popUpWidnow:
+  pvalue: 0.999931781258988
+  same_distribution: true
+port:
+  pvalue: 1.0
+  same_distribution: true
+web_traffic:
+  pvalue: 0.2443781182977373
+  same_distribution: true

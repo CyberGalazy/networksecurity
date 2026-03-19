@@ -1,0 +1,93 @@
+Abnormal_URL:
+  pvalue: 0.9739932435377546
+  same_distribution: true
+DNSRecord:
+  pvalue: 0.9997752665277037
+  same_distribution: true
+Domain_registeration_length:
+  pvalue: 1.0
+  same_distribution: true
+Favicon:
+  pvalue: 0.9999999999990964
+  same_distribution: true
+Google_Index:
+  pvalue: 1.0
+  same_distribution: true
+HTTPS_token:
+  pvalue: 0.998821814236978
+  same_distribution: true
+Iframe:
+  pvalue: 0.9999999489728584
+  same_distribution: true
+Links_in_tags:
+  pvalue: 0.9999999999598222
+  same_distribution: true
+Links_pointing_to_page:
+  pvalue: 0.7710771491561995
+  same_distribution: true
+Page_Rank:
+  pvalue: 1.0
+  same_distribution: true
+Prefix_Suffix:
+  pvalue: 1.0
+  same_distribution: true
+Redirect:
+  pvalue: 1.0
+  same_distribution: true
+Request_URL:
+  pvalue: 1.0
+  same_distribution: true
+Result:
+  pvalue: 0.9997064605886263
+  same_distribution: true
+RightClick:
+  pvalue: 1.0
+  same_distribution: true
+SFH:
+  pvalue: 0.9999971010402764
+  same_distribution: true
+SSLfinal_State:
+  pvalue: 1.0
+  same_distribution: true
+Shortining_Service:
+  pvalue: 0.6369650807361981
+  same_distribution: true
+Statistical_report:
+  pvalue: 1.0
+  same_distribution: true
+Submitting_to_email:
+  pvalue: 0.9739932435377546
+  same_distribution: true
+URL_Length:
+  pvalue: 0.9999998099738984
+  same_distribution: true
+URL_of_Anchor:
+  pvalue: 1.0
+  same_distribution: true
+age_of_domain:
+  pvalue: 1.0
+  same_distribution: true
+double_slash_redirecting:
+  pvalue: 0.9413205455808915
+  same_distribution: true
+having_At_Symbol:
+  pvalue: 1.0
+  same_distribution: true
+having_IP_Address:
+  pvalue: 0.7481247116503471
+  same_distribution: true
+having_Sub_Domain:
+  pvalue: 0.5890956201196135
+  same_distribution: true
+on_mouseover:
+  pvalue: 1.0
+  same_distribution: true
+popUpWidnow:
+  pvalue: 1.0
+  same_distribution: true
+port:
+  pvalue: 0.9999999999965016
+  same_distribution: true
+web_traffic:
+  pvalue: 0.9999998996954222
+  same_distribution: true
