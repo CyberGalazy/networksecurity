@@ -1,5 +1,6 @@
 from networksecurity.components.data_ingestion import DataIngestion
-from networksecurity.entity.config_entity import DataIngestionConfig
+from networksecurity.components.model_trainer import ModelTrainer
+from networksecurity.entity.config_entity import DataIngestionConfig, ModelTrainerConfig
 from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
 from networksecurity.entity.config_entity import TrainingPipelineConfig
@@ -32,6 +33,13 @@ if __name__=='__main__':
         logging.info("Data transformation process completed")
         print(data_transformation_artifact)
         
+        logging.info("All the components of training pipeline completed successfully")
+        model_trainer_config = ModelTrainerConfig(trainingpipelineconfig)
+        model_trainer = ModelTrainer(model_trainer_config=model_trainer_config,data_transformation_artifact=data_transformation_artifact)
+        logging.info("Starting the model training process")
+        model_trainer_artifact = model_trainer.initiate_model_trainer()
+        logging.info("Model training process completed")
+        print(model_trainer_artifact)
 
     except Exception as e:
         raise NetworkSecurityException(e,sys)
