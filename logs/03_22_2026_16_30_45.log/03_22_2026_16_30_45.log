@@ -1,0 +1,6 @@
+[ 2026-03-22 16:30:49,878 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-22 16:30:49,888 ] 107 dagshub - INFO - Accessing as CyberGalazy
+[ 2026-03-22 16:30:50,778 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/CyberGalazy/networksecurity "HTTP/1.1 200 OK"
+[ 2026-03-22 16:30:51,599 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-22 16:30:51,603 ] 107 dagshub - INFO - Initialized MLflow to track repo "CyberGalazy/networksecurity"
+[ 2026-03-22 16:30:51,604 ] 107 dagshub - INFO - Repository CyberGalazy/networksecurity initialized!

@@ -1,0 +1,24 @@
+[ 2026-03-22 16:26:28,169 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-22 16:26:28,181 ] 107 dagshub - INFO - Accessing as CyberGalazy
+[ 2026-03-22 16:26:29,133 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/CyberGalazy/networksecurity "HTTP/1.1 200 OK"
+[ 2026-03-22 16:26:30,217 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-22 16:26:30,219 ] 107 dagshub - INFO - Initialized MLflow to track repo "CyberGalazy/networksecurity"
+[ 2026-03-22 16:26:30,220 ] 107 dagshub - INFO - Repository CyberGalazy/networksecurity initialized!
+[ 2026-03-22 16:27:12,021 ] 37 root - INFO - Starting data ingestion
+[ 2026-03-22 16:27:17,873 ] 61 root - INFO - Performed train test split on the dataframe
+[ 2026-03-22 16:27:17,873 ] 63 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-03-22 16:27:17,875 ] 71 root - INFO - Exporting train and test file path.
+[ 2026-03-22 16:27:17,984 ] 80 root - INFO - Exported train and test file path.
+[ 2026-03-22 16:27:17,985 ] 41 root - INFO - Data ingestion completed successfully
+[ 2026-03-22 16:27:34,868 ] 37 root - INFO - Starting data ingestion
+[ 2026-03-22 16:27:40,687 ] 61 root - INFO - Performed train test split on the dataframe
+[ 2026-03-22 16:27:40,687 ] 63 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-03-22 16:27:40,687 ] 71 root - INFO - Exporting train and test file path.
+[ 2026-03-22 16:27:40,785 ] 80 root - INFO - Exported train and test file path.
+[ 2026-03-22 16:27:40,786 ] 41 root - INFO - Data ingestion completed successfully
+[ 2026-03-22 16:28:11,653 ] 37 root - INFO - Starting data ingestion
+[ 2026-03-22 16:28:16,824 ] 61 root - INFO - Performed train test split on the dataframe
+[ 2026-03-22 16:28:16,824 ] 63 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-03-22 16:28:16,825 ] 71 root - INFO - Exporting train and test file path.
+[ 2026-03-22 16:28:16,876 ] 80 root - INFO - Exported train and test file path.
+[ 2026-03-22 16:28:16,877 ] 41 root - INFO - Data ingestion completed successfully

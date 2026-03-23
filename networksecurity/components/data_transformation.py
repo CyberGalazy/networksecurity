@@ -66,6 +66,7 @@ class DataTransformation:
             save_numpy_array_data(file_path=self.data_transformation_config.transformed_train_file_path,array=train_arr)
             save_numpy_array_data(file_path=self.data_transformation_config.transformed_test_file_path,array=test_arr)
             save_object(file_path=self.data_transformation_config.transformed_object_file_path,obj=processor)
+            save_object("final_models/preprocessor.pkl",processor)
             logging.info("Data transformation completed successfully")
 
             data_transformation_artifact = DataTransformationArtifact(
@@ -73,7 +74,7 @@ class DataTransformation:
                 transformed_test_file_path=self.data_transformation_config.transformed_test_file_path,
                 transformed_object_file_path=self.data_transformation_config.transformed_object_file_path
             )
-            return data_transformation_artifact
+            return data_transformation_artifact                                                         
 
         except Exception as e:
             raise NetworkSecurityException(e,sys)

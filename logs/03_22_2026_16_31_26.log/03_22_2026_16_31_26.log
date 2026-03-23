@@ -1,0 +1,54 @@
+[ 2026-03-22 16:31:31,380 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-22 16:31:31,385 ] 107 dagshub - INFO - Accessing as CyberGalazy
+[ 2026-03-22 16:31:32,128 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/CyberGalazy/networksecurity "HTTP/1.1 200 OK"
+[ 2026-03-22 16:31:33,013 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-22 16:31:33,016 ] 107 dagshub - INFO - Initialized MLflow to track repo "CyberGalazy/networksecurity"
+[ 2026-03-22 16:31:33,017 ] 107 dagshub - INFO - Repository CyberGalazy/networksecurity initialized!
+[ 2026-03-22 16:31:37,434 ] 37 root - INFO - Starting data ingestion
+[ 2026-03-22 16:31:59,773 ] 61 root - INFO - Performed train test split on the dataframe
+[ 2026-03-22 16:31:59,773 ] 63 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-03-22 16:31:59,774 ] 71 root - INFO - Exporting train and test file path.
+[ 2026-03-22 16:31:59,907 ] 80 root - INFO - Exported train and test file path.
+[ 2026-03-22 16:31:59,912 ] 41 root - INFO - Data ingestion completed successfully
+[ 2026-03-22 16:31:59,912 ] 48 root - INFO - Starting data validation
+[ 2026-03-22 16:32:00,063 ] 38 root - INFO - Required number of columns: 31
+[ 2026-03-22 16:32:00,066 ] 39 root - INFO - Dataframe has columns: Index(['having_IP_Address', 'URL_Length', 'Shortining_Service',
+       'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix',
+       'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length',
+       'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor',
+       'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL',
+       'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe',
+       'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank',
+       'Google_Index', 'Links_pointing_to_page', 'Statistical_report',
+       'Result'],
+      dtype='object')
+[ 2026-03-22 16:32:00,066 ] 38 root - INFO - Required number of columns: 31
+[ 2026-03-22 16:32:00,067 ] 39 root - INFO - Dataframe has columns: Index(['having_IP_Address', 'URL_Length', 'Shortining_Service',
+       'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix',
+       'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length',
+       'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor',
+       'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL',
+       'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe',
+       'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank',
+       'Google_Index', 'Links_pointing_to_page', 'Statistical_report',
+       'Result'],
+      dtype='object')
+[ 2026-03-22 16:32:00,222 ] 97 root - INFO - Data drift is detected between train and test dataframe.
+[ 2026-03-22 16:32:00,361 ] 53 root - INFO - Data validation completed successfully
+[ 2026-03-22 16:32:00,362 ] 60 root - INFO - Starting data transformation
+[ 2026-03-22 16:32:00,362 ] 48 root - INFO - Starting data transformation
+[ 2026-03-22 16:32:00,523 ] 51 root - INFO - Splitting input and target feature from training and testing dataframe
+[ 2026-03-22 16:32:00,539 ] 56 root - INFO - Applying imputation on training and testing dataframe
+[ 2026-03-22 16:32:00,540 ] 35 root - INFO - Creating data transformer object
+[ 2026-03-22 16:32:00,540 ] 37 root - INFO - Data transformer object created successfully{'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2026-03-22 16:32:00,576 ] 61 root - INFO - Imputation applied successfully on training and testing dataframe
+[ 2026-03-22 16:32:00,586 ] 43 root - INFO - Saving object file: network_security_pipeline\artifact\03_22_2026_16_31_27\data_transformation\transformed_object\preprocessing_object.pkl
+[ 2026-03-22 16:32:00,593 ] 48 root - INFO - Object file saved successfully: network_security_pipeline\artifact\03_22_2026_16_31_27\data_transformation\transformed_object\preprocessing_object.pkl
+[ 2026-03-22 16:32:00,593 ] 43 root - INFO - Saving object file: final_models/preprocessor.pkl
+[ 2026-03-22 16:32:00,597 ] 48 root - INFO - Object file saved successfully: final_models/preprocessor.pkl
+[ 2026-03-22 16:32:00,597 ] 70 root - INFO - Data transformation completed successfully
+[ 2026-03-22 16:32:00,599 ] 65 root - INFO - Data transformation completed successfully
+[ 2026-03-22 16:32:00,599 ] 72 root - INFO - Starting model trainer
+[ 2026-03-22 16:32:00,599 ] 128 root - INFO - Starting model training
+[ 2026-03-22 16:32:00,599 ] 129 root - INFO - Loading transformed training and testing data
+[ 2026-03-22 16:32:00,620 ] 49 root - INFO - Training the model

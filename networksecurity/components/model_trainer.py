@@ -17,6 +17,10 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier,GradientBoostingClassifier
 import mlflow
+import dagshub
+dagshub.init(repo_owner='CyberGalazy', repo_name='networksecurity', mlflow=True)
+
+
 
 class ModelTrainer:
     def __init__(self,model_trainer_config:ModelTrainerConfig,
@@ -102,6 +106,10 @@ class ModelTrainer:
             os.makedirs(model_dir_path,exist_ok=True)
             model = NetworkModel(preprocessor_object=preprocessor,model_object = best_model)
             save_object(file_path=self.model_trainer_config.trained_model_file_path,obj=model)
+
+            save_object("final_models/best_model.pkl",best_model)
+
+
 
             ## Model trainer artifact
             model_trainer_artifact = ModelTrainerArtifact(trained_model_file_path=self.model_trainer_config.trained_model_file_path,

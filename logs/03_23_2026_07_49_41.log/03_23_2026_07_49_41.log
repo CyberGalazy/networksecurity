@@ -1,0 +1,7 @@
+[ 2026-03-23 07:49:45,618 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-23 07:49:45,623 ] 107 dagshub - INFO - Accessing as CyberGalazy
+[ 2026-03-23 07:49:46,420 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/CyberGalazy/networksecurity "HTTP/1.1 200 OK"
+[ 2026-03-23 07:49:47,238 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-23 07:49:47,241 ] 107 dagshub - INFO - Initialized MLflow to track repo "CyberGalazy/networksecurity"
+[ 2026-03-23 07:49:47,242 ] 107 dagshub - INFO - Repository CyberGalazy/networksecurity initialized!
+[ 2026-03-23 07:49:58,525 ] 55 root - INFO - Loading object file: final_models/preprocessor.pkl
