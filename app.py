@@ -36,7 +36,7 @@ from networksecurity.constants.training_pipeline import DATA_INGESTION_DATABASE_
 database = client[DATA_INGESTION_DATABASE_NAME]
 collection = database[DATA_INGESTION_COLLECTION_NAME]
 
-
+#Try
 app = FastAPI()
 origins = ["*"]
 
