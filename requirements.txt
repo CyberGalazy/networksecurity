@@ -1,13 +1,11 @@
 python-dotenv
 pandas
-numpy 
+numpy
 scikit-learn
 matplotlib
 seaborn
-pymongo
+pymongo[srv]==3.12.3
 certifi
-logging
-pymongo[srv]==3.12
 dill
 pyyaml
 mlflow
