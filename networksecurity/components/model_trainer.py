@@ -17,8 +17,6 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier,GradientBoostingClassifier
 import mlflow
-import dagshub
-dagshub.init(repo_owner='CyberGalazy', repo_name='networksecurity', mlflow=True)
 
 
 
